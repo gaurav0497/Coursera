@@ -152,6 +152,7 @@ h2{
 		background:url('image/large2.jpg') no-repeat;
 		height: 675px;
 		margin-bottom:0px;
+		width: 100%;
 	}
 
 	body{
@@ -207,4 +208,26 @@ h2{
 }
 #home{
 	text-align: center;
+
+}
+#menu, #specials, #map {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-right: 15px;
+}
+#menu{
+	background: url('image/menu.png') no-repeat;
+	height: 250px;
+	width: 100%;
+	background-position: center;
+}
+@media(max-width: 570px){
+	#menu{
+		width: 350px;
+		overflow: hidden;
+	}
 }
