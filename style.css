@@ -36,6 +36,11 @@ header{
  a:hover, a:focus{
 	text-decoration: none;
 }
+@media(max-width: 412px){
+	h1{
+		font-size: 1.35em;
+	}
+}
 
 
 @media(max-width: 650px){
