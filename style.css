@@ -87,6 +87,8 @@ header{
 }
 li{
 	font-size: 1.4em;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 @media(max-width: 991px){
 	svg{
@@ -102,8 +104,9 @@ li{
 	color:#f45f65;
 	text-align: center;
     border:2px solid  #f6b319 ;
-    box-shadow: 0 0 50px #3f0c1f;
+    box-shadow: 0 0 6px #3f0c1f;
 }
+
 }
 @media(min-width: 992px){
 	#num{
@@ -112,6 +115,10 @@ li{
 	.xyz{
 		width: 85%;
 	}
+	.mr-auto{
+	margin-right: 7%!important;
+
+}
 
 }
 @media(min-width: 1170px){
@@ -119,7 +126,7 @@ li{
 		margin-right: 6%;
 	}
 	.Trump{
-		font-size: 1.3em;
+		font-size: 1em;
 		margin-left: 20px;
 	}
 
@@ -142,9 +149,11 @@ h2{
 	color:#22ffcc;
 	margin-right: 2px;
 }
-.nav-link{
-	margin-left: 4px;
-	margin-right: 4px;
+.navbar-nav .nav-item .nav-link{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 .container .jumbotron{
 	box-shadow: 0 0 50px #3f0c1f;
@@ -175,6 +184,8 @@ div #menu,div #specials{
 	.jumbotron{
 		background:url('image/jumbotron_768.png') no-repeat;
 		height: 375px;
+		width: 100%;
+
 
 	}
 }
@@ -182,10 +193,12 @@ div #menu,div #specials{
 	.jumbotron{
 		background:url('image/jumbotron_1200.png') no-repeat;
 		height: 675px;
+		width: 100%;
 		}
 		h1{
 			margin-right: 0px;
 		}
+
 }
 
 #num{
@@ -209,12 +222,7 @@ div #menu,div #specials{
 	padding: 40px 0px 0px 0px;
 	
 }
-.small{
-	margin:2px;
-	font-size: 1.3em;
-	color:#f45f65;
-	
-}
+
 .nav-item{
 	align-items: center;
 }
@@ -258,10 +266,18 @@ div #menu,div #specials{
 	text-align: center;
 	font-size: 1.6em;
 	text-transform: uppercase;
-	color:skyblue;
-	opacity: 1;
+	color:white;
+	opacity: 0.6;
 	border:1px solid black;
-	background-color: lightslategrey;
-	visibility: show;
+	background-color: black;
+	
 
+}
+
+#numb{
+	margin-left: 2%!important;
+}
+.small:hover,.small:active{
+	color:gray;
+	background-color: white;
 }
