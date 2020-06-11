@@ -105,7 +105,12 @@ li{
 	text-align: center;
     border:2px solid  #f6b319 ;
     box-shadow: 0 0 6px #3f0c1f;
-}
+    }
+    div #menu,div #specials{
+		width: 250px;
+		margin:0 auto 15px;
+		
+	}
 
 }
 @media(min-width: 992px){
@@ -121,16 +126,8 @@ li{
 }
 
 }
-@media(min-width: 1170px){
-	.nhu{
-		margin-right: 6%;
-	}
-	.Trump{
-		font-size: 1em;
-		margin-left: 20px;
-	}
 
-}
+
 @media(min-width: 992px) and (max-width: 1078px){
 	.nhu{
 		font-size: 0.76em;
@@ -162,23 +159,15 @@ h2{
 	margin-top: 4px;
 
 }
-div #menu,div #specials{
-		width: 250px;
-		margin:0 auto 15px;
-		
-	}
-@media(min-width: 1250px){
+
+@media(min-width: 1200px){
 	.jumbotron{
-		background:url('image/large2.jpg') no-repeat;
+		background:url('image/jumbotron_1200.png') no-repeat;
 		height: 675px;
 		margin-bottom:0px;
 		width: 100%;
 	}
 
-
-	body{
-		background-color: #f0f0f0;
-	}
 }
 @media(max-width: 767px){
 	.jumbotron{
@@ -189,9 +178,9 @@ div #menu,div #specials{
 
 	}
 }
-@media(min-width:768px ) and (max-width: 1250px){
+@media(min-width:768px ) and (max-width: 1199px){
 	.jumbotron{
-		background:url('image/jumbotron_1200.png') no-repeat;
+		background:url('image/jumbotron_992.jpg') no-repeat;
 		height: 675px;
 		width: 100%;
 		}
@@ -210,8 +199,7 @@ div #menu,div #specials{
 }
 .cont{
 	
-	margin-left: 15px;
-	margin-right: 15px;
+	
 	margin-top: auto;
 	margin-bottom: auto;
 	
@@ -280,4 +268,14 @@ div #menu,div #specials{
 .small:hover,.small:active{
 	color:gray;
 	background-color: white;
+}
+
+@media(min-width:992px) and (max-width: 1199px){
+    body{
+    	font-size: 13px;
+    }
+    h1{
+    	font-size: 1.6em;
+    	margin-right: 10px;
+    }
 }
