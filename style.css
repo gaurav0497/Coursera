@@ -107,7 +107,7 @@ li{
     box-shadow: 0 0 6px #3f0c1f;
     }
     div #menu,div #specials{
-		width: 250px;
+		width: 320px;
 		margin:0 auto 15px;
 		
 	}
@@ -174,9 +174,13 @@ h2{
 		background:url('image/jumbotron_768.png') no-repeat;
 		height: 375px;
 		width: 100%;
-
-
 	}
+	div #menu,div #specials{
+		width: 250px!important;
+		margin:0 auto 15px!important;
+		
+	}
+
 }
 @media(min-width:768px ) and (max-width: 1199px){
 	.jumbotron{
