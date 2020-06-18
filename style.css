@@ -185,6 +185,12 @@ h2{
          flex: 0 0 50%;
          max-width: 50%;
 	}
+	.col-vs-1{
+		 -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+	}
+
 
 }
 @media(min-width:768px ) and (max-width: 1199px){
@@ -324,4 +330,33 @@ h2{
 .menn{
 	font-size: 1.4em;
 
+}
+
+.panel-footer{
+	background-color: #222;
+	color:white;
+	margin-top: 30px;
+	padding-top: 35px;
+	border-top:0;
+}
+#address p{
+	color:#557c3e;
+	font-size: 0.8em;
+	line-height: 1.8;
+}
+#hours span,#address span,#quote span{
+ font-family: serif;
+ font-size: 1.6em;
+}
+
+.text-center{
+	text-align: center;
+	font-size: 1.8em;
+	color:yellow;
+	margin-top: 20px;
+}
+
+hr{
+	color:blue;
+	width:100px;
 }
