@@ -9,9 +9,6 @@ $(function (){
 
 	});
 
-	$("#navbarToggle").click(function (event) {
-    		$(event.target).focus();
-  });
 
 }); // for hiding toggle button when not in use 
 
