@@ -189,7 +189,16 @@ h2{
 		 -ms-flex: 0 0 100%;
          flex: 0 0 100%;
          max-width: 100%;
+         text-align: center;
 	}
+	hr{
+		width:60%;
+		color:white;
+		background-color: orange;
+		border-width: 2px;
+	}
+}
+	
 
 
 }
@@ -356,7 +365,3 @@ h2{
 	margin-top: 20px;
 }
 
-hr{
-	color:blue;
-	width:100px;
-}
